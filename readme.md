@@ -24,4 +24,6 @@ another-bundle: https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=
 
 - Push the repo, and import the css file `https//your-repo-name.github.io/bundlename.css`
 
+Example: https://lukasbach.github.io/gfont-cloudless/example-bundle.css
+
 That's it!
