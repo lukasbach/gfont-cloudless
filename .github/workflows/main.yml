@@ -16,6 +16,9 @@ jobs:
         run: npm i -g zx
       - name: Build
         run: zx ./tool.mjs
+        # Remove or change to disable/customize redirect on accessing the root of the server
+      - name: Create index file
+        run: echo "<meta http-equiv=\"refresh\" content=\"0; url=https://github.com/lukasbach/gfont-cloudless\" />" > index.html
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
