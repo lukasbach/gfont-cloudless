@@ -11,7 +11,7 @@ then served statically.
 
 How it works:
 
-- Fork this repo and setup Github Pages on your fork
+- [Fork this repo](https://github.com/lukasbach/gfont-cloudless/generate) and setup Github Pages on your fork
 - Go to [fonts.google.com](https://fonts.google.com/) and configure a font bundle
 - Export a `<link>` tag on the google fonts page, and copy the href target, e.g.
   `https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;900&display=swap`
