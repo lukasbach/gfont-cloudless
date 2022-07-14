@@ -9,6 +9,8 @@ fs.removeSync("./out")
 fs.mkdir("./out")
 
 for (const [key, url] of fonts) {
+  if (!key || !url) continue;
+  
   console.log(`Processing ${chalk.blue(key)}: ${chalk.gray(url)}...`)
   let css = await (await fetch(url)).text()
   const fontFiles = css.matchAll(/url\((.+?)\)/g)
