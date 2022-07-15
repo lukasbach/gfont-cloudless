@@ -22,7 +22,7 @@ bundlename: https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;
 another-bundle: https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web:wght@300&display=swap
 ```
 
-- Push the repo, and import the css file `https//your-repo-name.github.io/bundlename.css`
+- Push the repo, and import the css file `https//your-github-user-name.github.io/your-repo-name/bundlename.css`
 
 Example: https://lukasbach.github.io/gfont-cloudless/example-bundle.css
 
