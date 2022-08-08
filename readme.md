@@ -5,7 +5,7 @@
 The motivation for this project are legal verdicts passed in germany that stated the
 use of google fonts illegal in germany for privacy reasons. The idea is to host fonts
 on your own, but instead of renting actual servers to implement the logic on googles
-font systems to provide pre-configured css bundles with font references at runtime,
+font systems that provide pre-configured css bundles with font references at runtime,
 the css bundles are generated at compile time in a github action run once and
 then served statically.
 
